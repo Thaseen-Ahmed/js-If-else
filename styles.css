@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.nav{
+    background-color: burlywood;
+    
+}
+.nav ul{
+
+    display: flex;
+}
+
+.nav ul li{
+    padding: 20px 80px;
+    list-style: none;
+    font-size: 1.7rem;
+}
+.two{
+    text-align: center;
+}
+.two input{
+    margin-top: 5%;
+    height: 10vh;
+    width: 50%;
+    font-size: 2rem;
+    background-color: beige;
+}
+.two button{
+    margin-top: 5%;
+    height: 7vh;
+    width: 20%;
+    background-color:cornflowerblue;
+    border-radius: 5px;
+    /* border: 2px solid green; */
+    /* border: none; */
+}
