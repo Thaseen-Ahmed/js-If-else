@@ -4,7 +4,7 @@ a.value=Number.parseInt("a");
 
 
 function ageValid(){
-    preventDefault()
+    e.preventDefault()
     if(a.value==""){
         alert("Enter Your Age")
     }
