@@ -15,7 +15,7 @@ function ageValid(){
         alert("You Can Think to drive")
     }
     if(a.value>18 & a.value<=80){
-         alert("You Are Eligiable to Drive");
+         // alert("You Are Eligiable to Drive");
         innerHTML=val.innerHTML="<div {backgroundcolour: green; height: 10vh; width:30%} ><h2>You are Eligible to apply for Driving License </div>"';
            
     }
