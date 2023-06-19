@@ -4,7 +4,7 @@ a.value=Number.parseInt("a");
 
 
 function ageValid(){
-    // e.preventDefault()
+    e.preventDefault()
     if(a.value==""){
         alert("Enter Your Age")
     }
@@ -15,7 +15,8 @@ function ageValid(){
         alert("You Can Think to drive")
     }
     if(a.value>18 & a.value<=80){
-        innerHTML=val.innerHTML="<div {backgroundcolour: green; height: 10vh; width:30%} ><h2>You are Eligible to apply for Driving License </div>"
+        innerHTML=val.innerHTML="<div {backgroundcolour: green; height: 10vh; width:30%} ><h2>You are Eligible to apply for Driving License </div>"';
+            alert("You Are Eligiable to Drive");
     }
     else{
         alert('Enter the age Between 18 and 70')
