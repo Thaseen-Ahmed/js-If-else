@@ -4,6 +4,7 @@ a.value=Number.parseInt("a");
 
 
 function ageValid(){
+    preventDefault()
     if(a.value==""){
         alert("Enter Your Age")
     }
@@ -19,5 +20,6 @@ function ageValid(){
     else{
         alert('Enter the age Between 18 and 70')
     }
+    
 }
 // a.addEventListener("click",ageValid());
